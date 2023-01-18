@@ -38,44 +38,44 @@ const testimonials = [
     position: "Marketing",
     photo:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6",
-    text: "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time.",
+    text: "I lived at Gosse for over a year. It was an absolute lifeline for me as an international student, providing (increasingly rare) affordable housing near the city wherein i could not just concentrate on my studies but also form new friendships. A home away from home, that was crucial for my wellbeing. The residence provides both individual private space and clean, communal spaces. The staff (Grace and Mirek) plus the manager (Adam) are absolute gems - ever so prompt, accomodative and helpful. Will remain grateful to them throughout my life.",
   },
   {
     name: "June Cha",
     position: "Software Engineer",
     photo: "https://randomuser.me/api/portraits/women/44.jpg",
-    text: "This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!",
+    text: "I have lived in Gosse, two times now in the last 2 years. It had been a great place for me, and I believe it is a great place for students looking for affordable accommodation close to the city.",
   },
   {
     name: "Iida Niskanen",
     position: "Data Entry",
     photo: "https://randomuser.me/api/portraits/women/68.jpg",
-    text: "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+    text: "I lived at Gosse for 4 years attending school at Waite campus. It was indeed home away from home. Its close proximity to Waite and universities/colleges in the CBD makes it one of the preferred residences. The rent is affordable and basic services a generously provided. Adam the manager is likeable and professional. I always refer international students to Gosse. Adam, keep the fire burning as I plan to visit soon!",
   },
   {
     name: "Renee Sims",
     position: "Receptionist",
     photo: "https://randomuser.me/api/portraits/women/65.jpg",
-    text: "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future.",
+    text: "I have been living here for few years. residents and staff are all lovely and helpful. the location of this building is great, and it's quite convenient for me to go to uni or work. it's just like my second home. hopefully it will stay there forever, and be continuing provide accommodation for people who need it :)",
   },
   {
     name: "Jonathan Nunfiez",
     position: "Graphic Designer",
     photo: "https://randomuser.me/api/portraits/men/43.jpg",
-    text: "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!",
+    text: "Staying here for almost 4 years, everything is nice and convenient. Adam is amazing, he help whenever it is needed.😊 The cleaner is also good and they always keep the place clean and neat. Perfect for students.",
   },
   {
     name: "Sasha Ho",
     position: "Accountant",
     photo:
       "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb",
-    text: "This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!",
+    text: "Lived there for 2 years! definitely, when I come back to Australia, I want to go there again!! Convenient living place, especially for students, affordable price, friendly and helpful staff and manager, close to city, fabulous and secure suburb!",
   },
   {
     name: "Veeti Seppanen",
     position: "Director",
     photo: "https://randomuser.me/api/portraits/men/97.jpg",
-    text: "This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results.",
+    text: "Gosse International Student Accomodation is the best place to live close to city for students. We have been there for couple of weeks and enjoyed our stay . It has got everything in terms of student needs such as unlimited wifi, study table and many more. Additionally the manager ADAM is a legend. He is really generous and helpful person I have ever seen in my life. I would like to recommend this place to everyone who is struggling to find to a suitable place in Adelaide especially near the city . And thanks to wonderful people who live there for helping us out with so many things!!",
   },
 ];
 
