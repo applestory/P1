@@ -28,11 +28,11 @@
   <nav class="navFixed active" id="nav">
     <ul class="navFixed__info">
       <img class="navFixed__info--logo" src="./images/nav/nav_logo.png" alt="nav_logo">
-      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="#">HOME</a></li>
-      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="">ACCOMMODATION</a></li>
-      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="">ABOUT</a></li>
-      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="">FAQ</a></li>
-      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="">CONTACT</a></li>
+      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="#home">HOME</a></li>
+      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="#accommodation">ACCOMMODATION</a></li>
+      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="#about">ABOUT</a></li>
+      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="#FAQ">FAQ</a></li>
+      <li class="navFixed__info--content"><a class="navFixed__info--content--detail" href="#contact">CONTACT</a></li>
     </ul>
     <button class="navFixed__icon" id="toggle">
       <div class="navFixed__icon--line navFixed__icon--line1"></div>
@@ -44,7 +44,7 @@
   <div class="main">
 
     <!-- Home -->
-    <div class="home">
+    <div class="home" id="home">
       <div class="home__images">
         <div id="carouselExampleFade" class="carousel slide carousel-fade ">
           <div class="carousel-inner">
@@ -100,14 +100,14 @@
     </div>
 
     <!-- Accommodation -->
-    <div class="accommodation">
+    <div class="accommodation" id="accommodation">
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 
           <div class="carousel-item active">
             <div class="card">
-              <p class="card__pFormat">FEEL AT HOME</p>
+              <p class="card__pFormat" id="accommodation">FEEL AT HOME</p>
               <div class="card__imageContainer">
                 <img class="card__imageContainer--detail" src="./images/accommodation/accommodation_barbeque.jpg"
                   alt="accommodation image">
@@ -302,7 +302,7 @@
     </div>
 
     <!-- About -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="feedback">
 
         <div class="feedback__user">
@@ -329,7 +329,7 @@
     </div>
 
     <!-- FAQ -->
-    <div class="FAQ">
+    <div class="FAQ" id="FAQ">
 
       <img class="FAQ__background" src="./images/contact/contact_background.jpg" alt="FAQ_image">
       <div class="FAQ__container">
@@ -361,7 +361,7 @@
     </div>
 
     <!-- Contact -->
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="mapapi">
         <div id='storemapper' style='width:100%;'>
           <p>Store Locator is loading from <a href='https://www.storemapper.co'>Storemapper</a>...</p>
