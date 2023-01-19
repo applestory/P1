@@ -26,11 +26,11 @@ const nav = document.getElementById("nav");
 toggle.addEventListener("click", () => nav.classList.toggle("active"));
 
 // about
-const testimonialsContainer = document.querySelector(".testimonials-container");
-const testimonial = document.querySelector(".testimonial");
-const userImage = document.querySelector(".user-image");
-const username = document.querySelector(".username");
-const role = document.querySelector(".role");
+const testimonialsContainer = document.querySelector(".feedback");
+const testimonial = document.querySelector(".feedback__content--detail");
+const userImage = document.querySelector(".feedback__user--image");
+const username = document.querySelector(".feedback__user-details--username");
+const role = document.querySelector(".feedback__user-details--role");
 
 const testimonials = [
   {
