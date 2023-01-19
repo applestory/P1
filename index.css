@@ -178,6 +178,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 1rem;
 }
 
 .home__intro--h2Font,
@@ -411,7 +412,7 @@ html {
 }
 
 /* Media */
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1200px) {
 
   /* header */
   .header__title {
@@ -564,6 +565,227 @@ html {
 
   .FAQ__container--pformat {
     font-size: smaller;
+  }
+
+  /* footer */
+  .footer__block {
+    position: absolute;
+    top: -45%;
+    width: 100%;
+    height: 20%;
+    background-color: #CCCC99;
+    z-index: 100;
+  }
+
+  .footer {
+    position: relative;
+    padding: 20px 0;
+    background-color: #E11835;
+    color: whitesmoke;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  /* header */
+  .header__title {
+    margin: 0px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-family: serif;
+    font-size: 1rem;
+  }
+
+  .header__intro {
+    margin: 0px;
+    color: white;
+    position: absolute;
+    left: 10.5%;
+    top: 50%;
+    font-family: serif;
+    font-size: 0.5rem;
+  }
+
+  /* Fixed Nav */
+  .navFixed {
+    font-size: 0.5rem;
+    font-family: serif;
+    position: fixed;
+    top: 0%;
+    background-color: #E11835;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: width 0.6s linear;
+    overflow-x: hidden;
+    z-index: 999;
+  }
+
+  .navFixed__info--logo {
+    width: 60px;
+    transform: rotateY(0deg);
+    opacity: 0;
+    transition: transform 0.6s linear, opacity 0.6s linear;
+  }
+
+  .navFixed__info--content--detail {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .navFixed__icon--line {
+    background-color: white;
+    height: 2px;
+    width: 10px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: transform 0.6s linear;
+  }
+  
+  .navFixed__icon--line2 {
+    top: auto;
+    bottom: 10px;
+  }
+
+  /* home */
+  .home {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .home__images {
+    background-color: #303032;
+    width: 300px;
+    height: 175px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  .home__images--height {
+    display: block;
+    height: 175px;
+  }
+
+  /* Accommodation */
+  .accommodation {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .card {
+    font-size: 0;
+    max-width: 200px;
+    min-height: 0px;
+    background-color: #E11835;
+    color: #fff;
+    border-radius: 90px;
+    box-shadow: 10px 5px 5px grey;
+  }
+
+  .card__pFormat {
+    font-size: 0px;
+  }
+
+  .card__h4Format {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+  }
+
+  .card:hover {
+    transform: translateY(8px);
+  }
+
+  .card__imageContainer--detail {
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .card__content {
+    font-size: 0;
+  }
+
+  /* about */
+  .about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    color: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 10px 5px 5px red;
+  }
+
+  /* FAQ */
+  .FAQ {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .FAQ__background {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px lightblue;
+  }
+  
+  .FAQ__container {
+    font-family: serif;
+    font-size: smaller;
+    width: 45%;
+    height: 90%;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px lightblue;
+    padding: 5px;
+    overflow: scroll;
+  }
+  
+  .FAQ__container--h2format,
+  .FAQ__container--h5format {
+    font-weight: bold;
+  }
+
+  /* contact */
+  .contact {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
   }
 
   /* footer */
