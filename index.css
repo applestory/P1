@@ -194,7 +194,6 @@ html {
   font-size: 1rem;
 }
 
-
 /* Accommodation */
 .accommodation {
   display: grid;
@@ -298,7 +297,7 @@ html {
   }
 }
 
-/* faq */
+/* FAQ */
 .FAQ {
   position: relative;
   width: 85%;
@@ -332,14 +331,14 @@ html {
   font-weight: bold;
 }
 
-/* contact */
+/* Contact */
 .contact {
   width: 75%;
   margin: 0 auto;
   border-radius: 10px;
 }
 
-/* foot */
+/* Foot */
 
 .footer__block {
   position: absolute;
